@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+
 const Home: React.FC = () => {
   return (
     <>
@@ -78,5 +80,7 @@ const Home: React.FC = () => {
     </>
   );
 };
+
+export const metadata: Metadata = { description: 'XCP-20 (built on Counterparty)' };
 
 export default Home;
