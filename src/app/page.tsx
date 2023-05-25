@@ -75,6 +75,11 @@ const Home: React.FC = () => {
               SEAGULLS
             </a>
           </li>
+          <li>
+            <a href="https://xchain.io/asset/STUNK" target="_blank">
+              STUNK
+            </a>
+          </li>
         </ul>
       </div>
     </>
