@@ -80,6 +80,11 @@ const Home: React.FC = () => {
               STUNK
             </a>
           </li>
+          <li>
+            <a href="https://xchain.io/asset/JPMCHASE" target="_blank">
+              JPMCHASE
+            </a>
+          </li>
         </ul>
       </div>
     </>
