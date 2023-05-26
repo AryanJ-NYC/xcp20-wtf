@@ -76,6 +76,11 @@ const Home: React.FC = () => {
             </a>
           </li>
           <li>
+            <a href="https://xchain.io/asset/DEADBITCOIN" target="_blank">
+              DEADBITCOIN
+            </a>
+          </li>
+          <li>
             <a href="https://xchain.io/asset/STUNK" target="_blank">
               STUNK
             </a>
