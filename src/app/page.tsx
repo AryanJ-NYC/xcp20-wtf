@@ -36,6 +36,7 @@ const Home: React.FC = () => {
               Create a token
             </a>
           </li>
+          <li>Lock the token</li>
           <li>
             Create a burn address using{' '}
             <a href="https://gobittest.appspot.com/ProofOfBurn" target="_blank">
