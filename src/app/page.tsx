@@ -62,6 +62,7 @@ const Home: React.FC = () => {
       </div>
       <div>
         <H2>XCP-20 Tokens</H2>
+        {/* @ts-expect-error */}
         <Xcp20Table />
       </div>
     </>
