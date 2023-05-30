@@ -3,7 +3,7 @@ import './tailwind.css';
 const RootLayout: React.FC<React.PropsWithChildren<unknown>> = ({ children }) => {
   return (
     <html lang="en">
-      <body className="dark:bg-slate-800">{children}</body>
+      <body className="dark:bg-slate-800 dark:text-slate-300">{children}</body>
     </html>
   );
 };

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { A, BodyText, H1, H2, Li } from '../components/Typography';
+import { Xcp20Table } from './homepage/Xcp20Table';
 
 const Home: React.FC = () => {
   return (
@@ -61,47 +62,13 @@ const Home: React.FC = () => {
       </div>
       <div>
         <H2>XCP-20 Tokens</H2>
-        <ul>
-          <Li>
-            <A href="https://xchain.io/asset/FLOCK" target="_blank">
-              FLOCK
-            </A>
-          </Li>
-          <Li>
-            <A href="https://xchain.io/asset/FLOON" target="_blank">
-              FLOON
-            </A>
-          </Li>
-          <Li>
-            <A href="https://xchain.io/asset/SEAGULLS" target="_blank">
-              SEAGULLS
-            </A>
-          </Li>
-          <Li>
-            <A href="https://xchain.io/asset/DEADBITCOIN" target="_blank">
-              DEADBITCOIN
-            </A>
-          </Li>
-          <Li>
-            <A href="https://xchain.io/asset/STUNK" target="_blank">
-              STUNK
-            </A>
-          </Li>
-          <Li>
-            <A href="https://xchain.io/asset/JPMCHASE" target="_blank">
-              JPMCHASE
-            </A>
-          </Li>
-          <Li>
-            <A href="https://xchain.io/asset/PEPEXCPTWNTY" target="_blank">
-              PEPEXCPTWNTY
-            </A>
-          </Li>
-        </ul>
+        <Xcp20Table />
       </div>
     </>
   );
 };
+
+const xcp20s = ['FLOCK', 'FLOON', 'SEAGULLS', 'DEADBITCOIN', 'STUNK', 'JPMCHASE', 'PEPEXCPTWNTY'];
 
 export const metadata: Metadata = { description: 'XCP-20 (built on Counterparty)' };
 
