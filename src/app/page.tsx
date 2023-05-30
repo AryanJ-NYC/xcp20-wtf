@@ -17,9 +17,9 @@ const Home: React.FC = () => {
         <H2>Introduction</H2>
         <BodyText>
           XCP-20 tokens are created on the{' '}
-          <a href="https://docs.counterparty.io/" target="_blank">
+          <A href="https://docs.counterparty.io/" target="_blank">
             Counterparty protocol
-          </a>
+          </A>
           . They must be a fair mint. That is, all the tokens are put into one dispenser whose
           address is a burn address.
         </BodyText>
